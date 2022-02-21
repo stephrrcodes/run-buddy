@@ -65,7 +65,7 @@ footer a {
 section {
     padding: 60px;
 }
-/* Hero Style Start */
+/* HERO STYLE STARTS */
 .hero {
     background-image: url("../../projects/run-buddy/images/hero-bg.jpeg");
     height: 600px;
@@ -85,6 +85,7 @@ section {
   }
   .hero-form h3 {
       font-size: 24px;
+      margin: 0;
   }
    .hero-form p {
       margin: 5px 0 15px 0;
@@ -108,7 +109,7 @@ section {
     padding: 10px 20px;
     font-size: 16px;
   }
- /* Hero Style End */
+ /* HERO STYLE ENDS */
 
  .intro {
      text-align: center;
@@ -204,6 +205,7 @@ section {
   }
 
   /* REACH OUT STYLE STARTS */
+
   .contact {
     text-align: center;
     background: #024e76;
@@ -212,8 +214,8 @@ section {
     color: #fce138;
   }
   .contact-info iframe {
-    height: 400px;
-    width: 400px;
+     width: 400px;
+     height: 400px;
   }
   .contact-info div {
     width: 410px;
@@ -223,3 +225,17 @@ section {
     margin: 30px 0 0 60px;
     color: white;
   }
+  .contact-info h3 {
+    color:#fce138;
+    font-size: 32px;
+  }
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  .contact-info a {
+    color:#fce138;
+  }
+  /* REACH OUT STYLE ENDS */
